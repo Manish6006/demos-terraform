@@ -1,7 +1,6 @@
 provider "aws" {
         region = "${var.region}"
 }
-[ec2-user@ip-172-31-41-4 base]$ cat variables.tf
 variable "prefix" {
         type=string
         default = "devops-tech"
